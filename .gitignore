@@ -1,0 +1,16 @@
+#intelliJ
+*.idea*
+
+#Gradle
+.gradle*
+build
+*.iml
+
+#Test Report
+Reports/PS2ME_ParentPro.html
+
+#Test Failure Screenshots
+TestFailure_Screens/*
+
+
+
