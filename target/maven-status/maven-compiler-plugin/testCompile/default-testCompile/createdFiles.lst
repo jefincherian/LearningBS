@@ -1,9 +1,0 @@
-testUtilities\TestConfigurations_ClassLevel.class
-testUtilities\TestConfigurations.class
-testReporting\SendTestReportViaEmail.class
-testReporting\Listeners.class
-testReporting\ExtentReporterNG.class
-parentappTestCases\LoginScenariosTest.class
-parentappTestCases\MarkAbsenceFeatureTest.class
-testReporting\SendTestReportViaEmail$1.class
-testUtilities\DefaultLogin.class
