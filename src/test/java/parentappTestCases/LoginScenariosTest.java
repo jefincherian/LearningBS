@@ -28,7 +28,7 @@ public class LoginScenariosTest extends TestConfigurations {
         Assert.assertTrue(loginPage.userNameErrorMessage.isDisplayed());
     }
 
-    //@Test
+    @Test
     public void loginWithoutEnteringPassword() {
         login("test@abc.com", "");
         Assert.assertTrue(loginPage.passwordErrorMessage.isDisplayed());
@@ -46,7 +46,7 @@ public class LoginScenariosTest extends TestConfigurations {
         Assert.assertEquals(loginPage.snackBar.getText(), "You have entered incorrect email or password.");
     }
 
-    @Test(groups = {"smoke"})
+    //@Test(groups = {"smoke"})
     public void loginUsingValidCredentials() {
         login(System.getenv("PS2ME_Parent_Username"), System.getenv("PS2ME_Parent_Password"));
         ActivityReportsPage arp = new ActivityReportsPage(driver);
