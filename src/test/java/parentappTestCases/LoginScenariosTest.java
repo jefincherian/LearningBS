@@ -33,7 +33,7 @@ public class LoginScenariosTest extends TestConfigurations {
         login("test@abc.com", "");
         Assert.assertTrue(loginPage.passwordErrorMessage.isDisplayed());
     }
-    //@Test
+    @Test
     public void loginWithoutEnteringUsername() {
         login("", "test123");
         Assert.assertTrue(loginPage.userNameErrorMessage.isDisplayed());
