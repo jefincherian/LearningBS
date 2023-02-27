@@ -6,7 +6,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/jeffi/IdeaProjects/LearningBS">
         <classes>
-            <class name="parentappTestCases.LoginScenariosTest"/>
+            <class name="parentappTestCases.MarkAbsenceFeatureTest"/>
         </classes>
     </test>
 </suite>
